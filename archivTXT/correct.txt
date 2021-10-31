@@ -1,0 +1,6 @@
+start 
+
+a = read_vid ( "hola.avi" )
+
+
+end 

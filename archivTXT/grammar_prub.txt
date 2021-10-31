@@ -1,0 +1,7 @@
+S -> R-STRT E R-END 
+E -> T EE
+T -> V TT
+TT -> OP-SUM T
+TT -> OP-IG T
+V -> VL-INT
+V -> VL-VAR

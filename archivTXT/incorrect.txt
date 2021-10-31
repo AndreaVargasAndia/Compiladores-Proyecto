@@ -1,0 +1,11 @@
+start 
+
+r = 3.4 + 5 ,
+func a ({
+}
+vid1 = read_vid ( "hola.avi" )
+
+vid = cut_vid ( 1.2 : 4.5  
+#holaaaacomentario
+
+end

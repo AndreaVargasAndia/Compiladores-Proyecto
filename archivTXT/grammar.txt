@@ -1,0 +1,28 @@
+S -> R-STRT E R-END 
+E -> T EE 
+T -> V TT 
+T -> %
+TT -> OP-SUM T
+TT -> OP-REST T
+TT -> OP-IG T
+TT -> %  
+EE -> R-FUNC D-PIZQ E D-PDER E
+EE -> R-PRNT D-PIZQ E D-PDER E
+EE -> R-RV D-PIZQ V D-PDER E
+EE -> R-SV D-PIZQ E D-PDER E
+EE -> R-CV D-PIZQ E D-PDER E
+EE -> R-EA D-PIZQ E D-PDER E
+EE -> R-IF D-PIZQ C D-PDER E 
+EE -> R-WHL D-PIZQ E D-PDER E
+EE -> %  
+C -> V O
+O -> OP-DoblePunt V
+O -> OP-DIFIG V
+O -> OP-EXIG V 
+O -> % 
+V -> D-PIZQ E D-PDER
+V -> VL-INT
+V -> VL-DBL
+V -> VL-STRNG
+V -> VL-VAR
+V -> ID
